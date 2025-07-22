@@ -1,0 +1,119 @@
+STAR version=2.7.2b
+STAR compilation time,server,dir=Fri Oct 11 15:46:35 EDT 2019 rugen3.cshl.edu:/home/johlee/GRCh38_Gencode31/STAR-2.7.2b/source
+##### Command Line:
+/data/passala/Module_paper_data/Medicago_vs_potato_salt_upper_tissue/STAR --runThreadN 24 --runMode genomeGenerate --genomeDir /data/passala/Genomes/Solanum_lycopersicum_4_0 --genomeFastaFiles /data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa --sjdbGTFfile /data/passala/Genomes/Solanum_lycopersicum_4_0/genes.gtf --sjdbOverhang 100 --genomeSAindexNbases 13
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    24     ~RE-DEFINED
+runMode                       genomeGenerate     ~RE-DEFINED
+genomeDir                     /data/passala/Genomes/Solanum_lycopersicum_4_0     ~RE-DEFINED
+genomeFastaFiles              /data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa        ~RE-DEFINED
+sjdbGTFfile                   /data/passala/Genomes/Solanum_lycopersicum_4_0/genes.gtf     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+genomeSAindexNbases           13     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate
+runThreadN                        24
+genomeDir                         /data/passala/Genomes/Solanum_lycopersicum_4_0
+genomeFastaFiles                  /data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa   
+genomeSAindexNbases               13
+sjdbGTFfile                       /data/passala/Genomes/Solanum_lycopersicum_4_0/genes.gtf
+sjdbOverhang                      100
+
+-------------------------------
+##### Final effective command line:
+/data/passala/Module_paper_data/Medicago_vs_potato_salt_upper_tissue/STAR   --runMode genomeGenerate   --runThreadN 24   --genomeDir /data/passala/Genomes/Solanum_lycopersicum_4_0   --genomeFastaFiles /data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa      --genomeSAindexNbases 13   --sjdbGTFfile /data/passala/Genomes/Solanum_lycopersicum_4_0/genes.gtf   --sjdbOverhang 100
+----------------------------------------
+
+Finished loading and checking parameters
+Apr 15 11:08:25 ... starting to generate Genome files
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 0  "SL4.0ch00" chrStart: 0
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 1  "SL4.0ch01" chrStart: 9699328
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 2  "SL4.0ch02" chrStart: 100663296
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 3  "SL4.0ch03" chrStart: 154140672
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 4  "SL4.0ch04" chrStart: 219676672
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 5  "SL4.0ch05" chrStart: 284164096
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 6  "SL4.0ch06" chrStart: 349437952
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 7  "SL4.0ch07" chrStart: 396886016
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 8  "SL4.0ch08" chrStart: 464781312
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 9  "SL4.0ch09" chrStart: 529006592
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 10  "SL4.0ch10" chrStart: 597688320
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 11  "SL4.0ch11" chrStart: 662700032
+/data/passala/Genomes/Solanum_lycopersicum_4_0/SL4.0.fa : chr # 12  "SL4.0ch12" chrStart: 717225984
+Estimated genome size=985072704   784072704   201000000
+GstrandBit=32
+Number of SA indices: 1564950604
+Apr 15 11:08:38 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 25;   chunks size limit: 544330640 bytes
+Apr 15 11:08:41 ... sorting Suffix Array chunks and saving them to disk...
+Writing 518201344 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_2 ; empty space on disk = 118635251105792 bytes ... done
+Writing 481207712 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_3 ; empty space on disk = 118634278027264 bytes ... done
+Writing 489580448 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_1 ; empty space on disk = 118633469575168 bytes ... done
+Writing 540563712 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_6 ; empty space on disk = 118633573384192 bytes ... done
+Writing 513952720 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_14 ; empty space on disk = 118633032318976 bytes ...Writing 417626320 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_21 ; empty space on disk = 118632830992384 bytes ... done
+ done
+Writing 532167432 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_22 ; empty space on disk = 118632101183488 bytes ... done
+Writing 540013016 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_9 ; empty space on disk = 118631568506880 bytes ... done
+Writing 497867368 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_5 ; empty space on disk = 118631028490240 bytes ... done
+Writing 480602928 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_23 ; empty space on disk = 118630530416640 bytes ... done
+Writing 541410856 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_17 ; empty space on disk = 118630050168832 bytes ... done
+Writing 478154976 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_11 ; empty space on disk = 118629509103616 bytes ... done
+Writing 517491192 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_10 ; empty space on disk = 118628971184128 bytes ...Writing 531511904 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_4 ; empty space on disk = 118628971184128 bytes ... done
+ done
+Writing 537186048 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_18 ; empty space on disk = 118627316531200 bytes ... done
+Writing 495983488 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_16 ; empty space on disk = 118627248373760 bytes ...Writing 523609008 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_8 ; empty space on disk = 118627159244800 bytes ... done
+ done
+Writing 522354200 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_15 ; empty space on disk = 118626478718976 bytes ...Writing 515475632 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_20 ; empty space on disk = 118626475573248 bytes ... done
+ done
+Writing 539527632 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_0 ; empty space on disk = 118625154367488 bytes ...Writing 511624952 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_7 ; empty space on disk = 118625156464640 bytes ...Writing 510687352 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_19 ; empty space on disk = 118625156464640 bytes ... done
+ done
+ done
+Writing 534535504 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_13 ; empty space on disk = 118622792974336 bytes ...Writing 541189096 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_12 ; empty space on disk = 118622792974336 bytes ... done
+ done
+Writing 207079992 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA_24 ; empty space on disk = 118622820237312 bytes ... done
+Apr 15 11:10:18 ... loading chunks from disk, packing SA...
+Apr 15 11:10:44 ... finished generating suffix array
+Apr 15 11:10:44 ... generating Suffix Array index
+Apr 15 11:11:28 ... completed Suffix Array index
+Apr 15 11:11:28 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/data/passala/Genomes/Solanum_lycopersicum_4_0/genes.gtf, found:
+		34109 transcripts
+		161542 exons (non-collapsed)
+		127432 collapsed junctions
+Apr 15 11:11:29 ..... finished GTF processing
+Apr 15 11:11:29   Loaded database junctions from the GTF file: /data/passala/Genomes/Solanum_lycopersicum_4_0/genes.gtf: 127432 total junctions
+
+WARNING: long repeat for junction # 102 : SL4.0ch00 1602802 1605391; left shift = 233; right shift = 255
+WARNING: long repeat for junction # 17341 : SL4.0ch02 69337 76708; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 18377 : SL4.0ch02 23488594 23536458; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 19438 : SL4.0ch02 31917627 31924663; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 48337 : SL4.0ch04 50423642 50431462; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 64795 : SL4.0ch06 25323992 25330218; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 91680 : SL4.0ch08 63406721 63414426; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 100744 : SL4.0ch09 67791021 67798319; left shift = 59; right shift = 255
+WARNING: long repeat for junction # 100746 : SL4.0ch09 67823247 67830262; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 103173 : SL4.0ch10 4007170 4012948; left shift = 255; right shift = 186
+WARNING: long repeat for junction # 103434 : SL4.0ch10 5990151 5990708; left shift = 88; right shift = 255
+WARNING: long repeat for junction # 127165 : SL4.0ch12 66337949 66344559; left shift = 255; right shift = 255
+Apr 15 11:11:30   Finished preparing junctions
+Apr 15 11:11:30 ..... inserting junctions into the genome indices
+Apr 15 11:11:37   Finished SA search: number of new junctions=127421, old junctions=0
+Apr 15 11:11:50   Finished sorting SA indicesL nInd=50968064
+Genome size with junctions=809684325  784072704   25611621
+GstrandBit1=32   GstrandBit=32
+Apr 15 11:12:11   Finished inserting junction indices
+Apr 15 11:12:17   Finished SAi
+Apr 15 11:12:17 ..... finished inserting junctions into genome
+Apr 15 11:12:17 ... writing Genome to disk ...
+Writing 809684325 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/Genome ; empty space on disk = 118611924484096 bytes ... done
+SA size in bytes: 6665664509
+Apr 15 11:12:21 ... writing Suffix Array to disk ...
+Writing 6665664509 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SA ; empty space on disk = 118610885345280 bytes ... done
+Apr 15 11:12:29 ... writing SAindex to disk
+Writing 8 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SAindex ; empty space on disk = 118601818308608 bytes ... done
+Writing 112 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SAindex ; empty space on disk = 118601818308608 bytes ... done
+Writing 391468371 bytes into /data/passala/Genomes/Solanum_lycopersicum_4_0/SAindex ; empty space on disk = 118601818308608 bytes ... done
+Apr 15 11:12:30 ..... finished successfully
+DONE: Genome generation, EXITING

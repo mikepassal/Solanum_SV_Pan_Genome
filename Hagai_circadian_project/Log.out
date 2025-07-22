@@ -1,0 +1,572 @@
+STAR version=2.7.2b
+STAR compilation time,server,dir=Fri Oct 11 15:46:35 EDT 2019 rugen3.cshl.edu:/home/johlee/GRCh38_Gencode31/STAR-2.7.2b/source
+##### Command Line:
+/data/passala/Module_paper_data/Populus_vs_glycine_drought/STAR --runThreadN 30 --runMode genomeGenerate --genomeDir /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea --genomeFastaFiles /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta --sjdbGTFfile /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_genes_1.0.6.gtf --sjdbOverhang 100 --genomeSAindexNbases 13
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    30     ~RE-DEFINED
+runMode                       genomeGenerate     ~RE-DEFINED
+genomeDir                     /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea     ~RE-DEFINED
+genomeFastaFiles              /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta        ~RE-DEFINED
+sjdbGTFfile                   /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_genes_1.0.6.gtf     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+genomeSAindexNbases           13     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate
+runThreadN                        30
+genomeDir                         /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea
+genomeFastaFiles                  /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta   
+genomeSAindexNbases               13
+sjdbGTFfile                       /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_genes_1.0.6.gtf
+sjdbOverhang                      100
+
+-------------------------------
+##### Final effective command line:
+/data/passala/Module_paper_data/Populus_vs_glycine_drought/STAR   --runMode genomeGenerate   --runThreadN 30   --genomeDir /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea   --genomeFastaFiles /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta      --genomeSAindexNbases 13   --sjdbGTFfile /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_genes_1.0.6.gtf   --sjdbOverhang 100
+----------------------------------------
+
+Finished loading and checking parameters
+Jul 04 10:03:48 ... starting to generate Genome files
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 0  "chr1" chrStart: 0
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 1  "chr2" chrStart: 119013376
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 2  "chr3" chrStart: 219938816
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 3  "chr4" chrStart: 332922880
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 4  "chr5" chrStart: 437518336
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 5  "chr6" chrStart: 550240256
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 6  "chr7" chrStart: 650903552
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 7  "chr8" chrStart: 768868352
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 8  "chr9" chrStart: 892862464
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 9  "chr10" chrStart: 1025507328
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 10  "chr11" chrStart: 1128792064
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 11  "chr12" chrStart: 1240465408
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 12  "scf00000001" chrStart: 1359478784
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 13  "scf00000002" chrStart: 1361575936
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 14  "scf00000003" chrStart: 1362886656
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 15  "scf00000004" chrStart: 1363673088
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 16  "scf00000005" chrStart: 1364197376
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 17  "scf00000006" chrStart: 1364459520
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 18  "scf00000007" chrStart: 1364721664
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 19  "scf00000008" chrStart: 1364983808
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 20  "scf00000009" chrStart: 1365245952
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 21  "scf00000010" chrStart: 1365508096
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 22  "scf00000011" chrStart: 1365770240
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 23  "tig00000013" chrStart: 1366032384
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 24  "tig00000014" chrStart: 1366294528
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 25  "tig00000015" chrStart: 1366556672
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 26  "tig00000040" chrStart: 1366818816
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 27  "tig00000045" chrStart: 1367080960
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 28  "tig00000056" chrStart: 1367343104
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 29  "tig00000065" chrStart: 1367605248
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 30  "tig00000073" chrStart: 1367867392
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 31  "tig00000111" chrStart: 1368129536
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 32  "tig00000124" chrStart: 1368391680
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 33  "tig00000161" chrStart: 1368653824
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 34  "tig00000172" chrStart: 1368915968
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 35  "tig00000210" chrStart: 1369178112
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 36  "tig00000221" chrStart: 1369440256
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 37  "tig00000237" chrStart: 1369702400
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 38  "tig00000239" chrStart: 1369964544
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 39  "tig00000246" chrStart: 1370226688
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 40  "tig00000265" chrStart: 1370488832
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 41  "tig00000305" chrStart: 1370750976
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 42  "tig00000365" chrStart: 1371013120
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 43  "tig00000451" chrStart: 1371275264
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 44  "tig00000464" chrStart: 1371537408
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 45  "tig00000520" chrStart: 1371799552
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 46  "tig00000524" chrStart: 1372061696
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 47  "tig00000557" chrStart: 1372323840
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 48  "tig00000578" chrStart: 1372585984
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 49  "tig00000592" chrStart: 1372848128
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 50  "tig00000622" chrStart: 1373110272
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 51  "tig00000631" chrStart: 1373372416
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 52  "tig00000676" chrStart: 1373634560
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 53  "tig00000706" chrStart: 1373896704
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 54  "tig00000726" chrStart: 1374158848
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 55  "tig00000748" chrStart: 1374420992
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 56  "tig00000834" chrStart: 1374683136
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 57  "tig00000835" chrStart: 1374945280
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 58  "tig00000877" chrStart: 1375207424
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 59  "tig00000889" chrStart: 1375469568
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 60  "tig00000966" chrStart: 1375731712
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 61  "tig00000971" chrStart: 1375993856
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 62  "tig00000974" chrStart: 1376256000
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 63  "tig00001089" chrStart: 1376518144
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 64  "tig00001110" chrStart: 1376780288
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 65  "tig00001143" chrStart: 1377042432
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 66  "tig00001145" chrStart: 1377304576
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 67  "tig00001147" chrStart: 1377566720
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 68  "tig00001184" chrStart: 1377828864
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 69  "tig00001198" chrStart: 1378091008
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 70  "tig00001311" chrStart: 1378353152
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 71  "tig00001366" chrStart: 1378615296
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 72  "tig00001367" chrStart: 1378877440
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 73  "tig00001415" chrStart: 1379139584
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 74  "tig00001417" chrStart: 1379401728
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 75  "tig00001433" chrStart: 1379663872
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 76  "tig00001454" chrStart: 1379926016
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 77  "tig00001484" chrStart: 1380188160
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 78  "tig00001515" chrStart: 1380450304
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 79  "tig00001552" chrStart: 1380712448
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 80  "tig00001609" chrStart: 1380974592
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 81  "tig00001614" chrStart: 1381236736
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 82  "tig00001618" chrStart: 1381498880
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 83  "tig00001626" chrStart: 1381761024
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 84  "tig00001659" chrStart: 1382023168
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 85  "tig00001660" chrStart: 1382285312
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 86  "tig00001664" chrStart: 1382547456
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 87  "tig00001700" chrStart: 1382809600
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 88  "tig00001746" chrStart: 1383071744
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 89  "tig00001749" chrStart: 1383333888
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 90  "tig00001778" chrStart: 1383596032
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 91  "tig00001833" chrStart: 1383858176
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 92  "tig00001924" chrStart: 1384120320
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 93  "tig00001927" chrStart: 1384382464
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 94  "tig00001942" chrStart: 1384644608
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 95  "tig00001965" chrStart: 1384906752
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 96  "tig00001993" chrStart: 1385168896
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 97  "tig00002013" chrStart: 1385431040
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 98  "tig00002018" chrStart: 1385693184
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 99  "tig00002033" chrStart: 1385955328
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 100  "tig00002075" chrStart: 1386217472
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 101  "tig00002137" chrStart: 1386479616
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 102  "tig00002180" chrStart: 1386741760
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 103  "tig00002189" chrStart: 1387003904
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 104  "tig00002196" chrStart: 1387266048
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 105  "tig00002218" chrStart: 1387528192
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 106  "tig00002225" chrStart: 1387790336
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 107  "tig00002259" chrStart: 1388052480
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 108  "tig00002305" chrStart: 1388314624
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 109  "tig00002308" chrStart: 1388576768
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 110  "tig00002311" chrStart: 1388838912
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 111  "tig00002329" chrStart: 1389101056
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 112  "tig00002331" chrStart: 1389363200
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 113  "tig00002334" chrStart: 1389625344
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 114  "tig00002390" chrStart: 1389887488
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 115  "tig00002506" chrStart: 1390149632
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 116  "tig00002528" chrStart: 1390411776
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 117  "tig00002636" chrStart: 1390673920
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 118  "tig00002652" chrStart: 1390936064
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 119  "tig00002657" chrStart: 1391198208
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 120  "tig00002663" chrStart: 1391460352
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 121  "tig00002672" chrStart: 1391722496
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 122  "tig00002676" chrStart: 1391984640
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 123  "tig00002692" chrStart: 1392246784
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 124  "tig00002706" chrStart: 1392508928
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 125  "tig00002708" chrStart: 1392771072
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 126  "tig00002710" chrStart: 1393033216
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 127  "tig00002719" chrStart: 1393295360
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 128  "tig00002735" chrStart: 1393557504
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 129  "tig00002748" chrStart: 1393819648
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 130  "tig00002761" chrStart: 1394081792
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 131  "tig00002823" chrStart: 1394343936
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 132  "tig00002872" chrStart: 1394606080
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 133  "tig00002972" chrStart: 1394868224
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 134  "tig00002974" chrStart: 1395130368
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 135  "tig00003050" chrStart: 1395392512
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 136  "tig00003087" chrStart: 1395654656
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 137  "tig00003119" chrStart: 1395916800
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 138  "tig00003165" chrStart: 1396178944
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 139  "tig00003205" chrStart: 1396441088
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 140  "tig00003210" chrStart: 1396703232
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 141  "tig00003218" chrStart: 1396965376
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 142  "tig00003288" chrStart: 1397227520
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 143  "tig00003328" chrStart: 1397489664
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 144  "tig00003337" chrStart: 1397751808
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 145  "tig00003338" chrStart: 1398013952
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 146  "tig00003340" chrStart: 1398276096
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 147  "tig00003342" chrStart: 1398538240
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 148  "tig00003345" chrStart: 1398800384
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 149  "tig00003426" chrStart: 1399062528
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 150  "tig00003431" chrStart: 1399848960
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 151  "tig00003484" chrStart: 1400111104
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 152  "tig00003502" chrStart: 1400373248
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 153  "tig00003512" chrStart: 1400635392
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 154  "tig00003568" chrStart: 1400897536
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 155  "tig00003569" chrStart: 1401159680
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 156  "tig00003600" chrStart: 1401421824
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 157  "tig00003611_subseq_846389:851390" chrStart: 1401683968
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 158  "tig00003614" chrStart: 1401946112
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 159  "tig00003618" chrStart: 1402208256
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 160  "tig00003657" chrStart: 1402470400
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 161  "tig00003659" chrStart: 1402732544
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 162  "tig00003667" chrStart: 1402994688
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 163  "tig00003694" chrStart: 1403256832
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 164  "tig00003702" chrStart: 1403518976
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 165  "tig00003727" chrStart: 1403781120
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 166  "tig00003750" chrStart: 1404043264
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 167  "tig00003777" chrStart: 1404305408
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 168  "tig00003784" chrStart: 1404567552
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 169  "tig00003797" chrStart: 1404829696
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 170  "tig00003818" chrStart: 1405091840
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 171  "tig00003839" chrStart: 1405353984
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 172  "tig00003841" chrStart: 1405616128
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 173  "tig00003853" chrStart: 1405878272
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 174  "tig00003855" chrStart: 1406140416
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 175  "tig00003856" chrStart: 1406402560
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 176  "tig00003874" chrStart: 1406664704
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 177  "tig00003904" chrStart: 1406926848
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 178  "tig00003908" chrStart: 1407188992
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 179  "tig00003935" chrStart: 1407451136
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 180  "tig00003944" chrStart: 1407713280
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 181  "tig00003945" chrStart: 1407975424
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 182  "tig00003946" chrStart: 1408237568
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 183  "tig00003952" chrStart: 1408499712
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 184  "tig00003955" chrStart: 1408761856
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 185  "tig00004030" chrStart: 1409024000
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 186  "tig00004058" chrStart: 1409286144
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 187  "tig00004072" chrStart: 1409548288
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 188  "tig00004093" chrStart: 1409810432
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 189  "tig00004106" chrStart: 1410072576
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 190  "tig00004107" chrStart: 1410334720
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 191  "tig00004113" chrStart: 1410596864
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 192  "tig00004122" chrStart: 1410859008
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 193  "tig00004123" chrStart: 1411121152
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 194  "tig00004124" chrStart: 1411383296
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 195  "tig00004137" chrStart: 1411645440
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 196  "tig00004140" chrStart: 1411907584
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 197  "tig00004141" chrStart: 1412169728
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 198  "tig00004143" chrStart: 1412431872
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 199  "tig00004154" chrStart: 1412694016
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 200  "tig00004156" chrStart: 1412956160
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 201  "tig00004160" chrStart: 1413218304
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 202  "tig00004163" chrStart: 1413480448
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 203  "tig00004164" chrStart: 1413742592
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 204  "tig00004184" chrStart: 1414004736
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 205  "tig00004189" chrStart: 1414266880
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 206  "tig00004192" chrStart: 1414529024
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 207  "tig00004194" chrStart: 1414791168
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 208  "tig00004199" chrStart: 1415053312
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 209  "tig00004214" chrStart: 1415315456
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 210  "tig00004221" chrStart: 1415577600
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 211  "tig00004225" chrStart: 1415839744
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 212  "tig00004249" chrStart: 1416101888
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 213  "tig00004261" chrStart: 1416364032
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 214  "tig00004263" chrStart: 1416626176
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 215  "tig00004267" chrStart: 1416888320
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 216  "tig00004268" chrStart: 1417150464
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 217  "tig00004269" chrStart: 1417412608
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 218  "tig00004272" chrStart: 1417674752
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 219  "tig00004282" chrStart: 1417936896
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 220  "tig00004286" chrStart: 1418199040
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 221  "tig00004289" chrStart: 1418461184
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 222  "tig00004291" chrStart: 1418723328
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 223  "tig00004293" chrStart: 1418985472
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 224  "tig00004302" chrStart: 1419247616
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 225  "tig00004303" chrStart: 1419509760
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 226  "tig00004304" chrStart: 1419771904
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 227  "tig00004315" chrStart: 1420034048
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 228  "tig00004330" chrStart: 1420296192
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 229  "tig00004333" chrStart: 1420558336
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 230  "tig00004334" chrStart: 1420820480
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 231  "tig00004344" chrStart: 1421082624
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 232  "tig00004349" chrStart: 1421344768
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 233  "tig00004351" chrStart: 1421606912
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 234  "tig00004352" chrStart: 1421869056
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 235  "tig00004353" chrStart: 1422131200
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 236  "tig00004360" chrStart: 1422393344
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 237  "tig00004371" chrStart: 1422655488
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 238  "tig00004374" chrStart: 1422917632
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 239  "tig00004382" chrStart: 1423179776
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 240  "tig00004386" chrStart: 1423441920
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 241  "tig00004387" chrStart: 1423704064
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 242  "tig00004395" chrStart: 1423966208
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 243  "tig00004414" chrStart: 1424228352
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 244  "tig00004416" chrStart: 1424490496
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 245  "tig00004417" chrStart: 1424752640
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 246  "tig00004423" chrStart: 1425014784
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 247  "tig00004425" chrStart: 1425276928
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 248  "tig00004440" chrStart: 1425539072
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 249  "tig00004442" chrStart: 1425801216
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 250  "tig00004443" chrStart: 1426063360
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 251  "tig00004454" chrStart: 1426325504
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 252  "tig00004469" chrStart: 1426587648
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 253  "tig00004481" chrStart: 1426849792
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 254  "tig00004490" chrStart: 1427111936
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 255  "tig00004492" chrStart: 1427374080
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 256  "tig00004494" chrStart: 1427636224
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 257  "tig00004500" chrStart: 1427898368
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 258  "tig00004525" chrStart: 1428160512
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 259  "tig00004526" chrStart: 1428422656
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 260  "tig00004530" chrStart: 1428684800
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 261  "tig00004536" chrStart: 1428946944
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 262  "tig00004544" chrStart: 1429209088
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 263  "tig00004557" chrStart: 1429471232
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 264  "tig00004565" chrStart: 1429733376
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 265  "tig00004572" chrStart: 1429995520
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 266  "tig00004573" chrStart: 1430257664
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 267  "tig00004575" chrStart: 1430519808
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 268  "tig00004605" chrStart: 1430781952
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 269  "tig00004623" chrStart: 1431044096
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 270  "tig00004625" chrStart: 1431306240
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 271  "tig00004626" chrStart: 1431568384
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 272  "tig00004645" chrStart: 1431830528
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 273  "tig00004648" chrStart: 1432092672
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 274  "tig00004676" chrStart: 1432354816
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 275  "tig00004678" chrStart: 1432616960
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 276  "tig00004680" chrStart: 1432879104
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 277  "tig00004696" chrStart: 1433141248
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 278  "tig00004699" chrStart: 1433403392
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 279  "tig00004700" chrStart: 1433665536
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 280  "tig00004705" chrStart: 1433927680
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 281  "tig00004716" chrStart: 1434189824
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 282  "tig00004753" chrStart: 1434451968
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 283  "tig00004761" chrStart: 1434714112
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 284  "tig00004768" chrStart: 1434976256
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 285  "tig00004771" chrStart: 1435238400
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 286  "tig00004774" chrStart: 1435500544
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 287  "tig00004788" chrStart: 1435762688
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 288  "tig00004811" chrStart: 1436024832
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 289  "tig00004822" chrStart: 1436286976
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 290  "tig00004839" chrStart: 1436549120
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 291  "tig00004848" chrStart: 1436811264
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 292  "tig00004860" chrStart: 1437073408
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 293  "tig00004861" chrStart: 1437335552
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 294  "tig00004876" chrStart: 1437597696
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 295  "tig00004877" chrStart: 1437859840
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 296  "tig00004881" chrStart: 1438121984
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 297  "tig00004883" chrStart: 1438384128
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 298  "tig00004894" chrStart: 1438646272
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 299  "tig00004895" chrStart: 1438908416
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 300  "tig00004947" chrStart: 1439170560
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 301  "tig00004959" chrStart: 1439432704
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 302  "tig00004962" chrStart: 1439694848
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 303  "tig00004963" chrStart: 1439956992
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 304  "tig00004965" chrStart: 1440219136
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 305  "tig00004967" chrStart: 1440481280
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 306  "tig00004973" chrStart: 1440743424
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 307  "tig00004990" chrStart: 1441005568
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 308  "tig00004993" chrStart: 1441267712
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 309  "tig00005009" chrStart: 1441529856
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 310  "tig00005069" chrStart: 1441792000
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 311  "tig00005093" chrStart: 1442054144
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 312  "tig00005127" chrStart: 1442316288
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 313  "tig00005131" chrStart: 1442578432
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 314  "tig00005138" chrStart: 1442840576
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 315  "tig00005151" chrStart: 1443102720
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 316  "tig00005168" chrStart: 1443364864
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 317  "tig00005216" chrStart: 1443627008
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 318  "tig00005223" chrStart: 1443889152
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 319  "tig00005226" chrStart: 1444151296
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 320  "tig00005274" chrStart: 1444413440
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 321  "tig00005290" chrStart: 1444675584
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 322  "tig00005292" chrStart: 1444937728
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 323  "tig00005313" chrStart: 1445199872
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 324  "tig00005347" chrStart: 1445462016
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 325  "tig00005401" chrStart: 1445724160
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 326  "tig00005509" chrStart: 1445986304
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 327  "tig00005510" chrStart: 1446248448
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 328  "tig00005528" chrStart: 1446510592
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 329  "tig00005553" chrStart: 1446772736
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 330  "tig00005560" chrStart: 1447034880
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 331  "tig00005609" chrStart: 1447297024
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 332  "tig00005625" chrStart: 1447559168
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 333  "tig00005650" chrStart: 1447821312
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 334  "tig00005661" chrStart: 1448083456
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 335  "tig00005673" chrStart: 1448345600
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 336  "tig00005696" chrStart: 1448607744
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 337  "tig00005707" chrStart: 1448869888
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 338  "tig00005733" chrStart: 1449132032
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 339  "tig00005757" chrStart: 1449394176
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 340  "tig00005783" chrStart: 1449656320
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 341  "tig00005838" chrStart: 1449918464
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 342  "tig00005842" chrStart: 1450180608
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 343  "tig00005868" chrStart: 1450442752
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 344  "tig00005890" chrStart: 1450704896
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 345  "tig00005891" chrStart: 1450967040
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 346  "tig00005922" chrStart: 1451229184
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 347  "tig00005993" chrStart: 1451491328
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 348  "tig00006101" chrStart: 1451753472
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 349  "tig00006142" chrStart: 1452015616
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 350  "tig00006197" chrStart: 1452277760
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 351  "tig00006280" chrStart: 1452539904
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 352  "tig00006281" chrStart: 1452802048
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 353  "tig00006374" chrStart: 1453064192
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 354  "tig00006483" chrStart: 1453326336
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 355  "tig00006502" chrStart: 1453588480
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 356  "tig00006627" chrStart: 1453850624
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 357  "tig00006672" chrStart: 1454112768
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 358  "tig00006684" chrStart: 1454374912
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 359  "tig00006761" chrStart: 1454637056
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 360  "tig00006815" chrStart: 1454899200
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 361  "tig00006852" chrStart: 1455161344
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 362  "tig00006878" chrStart: 1455423488
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 363  "tig00006899" chrStart: 1455685632
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 364  "tig00007042" chrStart: 1455947776
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 365  "tig00007048" chrStart: 1456209920
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 366  "tig00007541" chrStart: 1456472064
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 367  "tig00007545" chrStart: 1456734208
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 368  "tig00007563" chrStart: 1456996352
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 369  "tig00007796" chrStart: 1457258496
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 370  "tig00007966" chrStart: 1457520640
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 371  "tig00008142" chrStart: 1457782784
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 372  "tig00008262" chrStart: 1458044928
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 373  "tig00008424" chrStart: 1458307072
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 374  "tig00008450" chrStart: 1458569216
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 375  "tig00008560" chrStart: 1458831360
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 376  "tig00008611" chrStart: 1459093504
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 377  "tig00008876" chrStart: 1459355648
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 378  "tig00009103" chrStart: 1459617792
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 379  "tig00009129" chrStart: 1459879936
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 380  "tig00009170" chrStart: 1460142080
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 381  "tig00009254" chrStart: 1460404224
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 382  "tig00009517" chrStart: 1460666368
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 383  "tig00009544" chrStart: 1460928512
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 384  "tig00009689" chrStart: 1461190656
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 385  "tig00009714" chrStart: 1461452800
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 386  "tig00009870" chrStart: 1461714944
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 387  "tig00010143" chrStart: 1461977088
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 388  "tig00010237" chrStart: 1462239232
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 389  "tig00010337" chrStart: 1462501376
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 390  "tig00010491" chrStart: 1462763520
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 391  "tig00011015" chrStart: 1463025664
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 392  "tig00011019" chrStart: 1463287808
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 393  "tig00011248" chrStart: 1463549952
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 394  "tig00011366" chrStart: 1463812096
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 395  "tig00011431" chrStart: 1464074240
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 396  "tig00011564" chrStart: 1464336384
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 397  "tig00012089" chrStart: 1464598528
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 398  "tig00012240" chrStart: 1464860672
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 399  "tig00012608" chrStart: 1465122816
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 400  "tig00012663" chrStart: 1465384960
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 401  "tig00013491" chrStart: 1465647104
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 402  "tig00013692" chrStart: 1465909248
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 403  "tig00014555" chrStart: 1466171392
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 404  "tig00015150" chrStart: 1466433536
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 405  "tig00015163" chrStart: 1466695680
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 406  "tig00015565" chrStart: 1466957824
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 407  "tig00015793" chrStart: 1467219968
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 408  "tig00016015" chrStart: 1467482112
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 409  "tig00016536" chrStart: 1467744256
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 410  "tig00016785" chrStart: 1468006400
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 411  "tig00017073" chrStart: 1468268544
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 412  "tig00017129" chrStart: 1468530688
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 413  "tig00017654" chrStart: 1468792832
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 414  "tig00018667" chrStart: 1469054976
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 415  "tig00018855" chrStart: 1469317120
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 416  "tig00019163" chrStart: 1469579264
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 417  "tig00019357" chrStart: 1469841408
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 418  "tig00020027" chrStart: 1470103552
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 419  "tig00020156" chrStart: 1470365696
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 420  "tig00020222" chrStart: 1470627840
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 421  "tig00020368" chrStart: 1470889984
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 422  "tig00020416" chrStart: 1471152128
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 423  "tig00020689" chrStart: 1471414272
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 424  "tig00021337" chrStart: 1471676416
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 425  "tig00021412" chrStart: 1471938560
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 426  "tig00021689" chrStart: 1472200704
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 427  "tig00022060" chrStart: 1472462848
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 428  "tig00022470" chrStart: 1472724992
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 429  "tig00022474" chrStart: 1472987136
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 430  "tig00022759" chrStart: 1473249280
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 431  "tig00023137" chrStart: 1473511424
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 432  "tig00023843" chrStart: 1473773568
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 433  "tig00024023" chrStart: 1474035712
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 434  "tig00024172" chrStart: 1474297856
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 435  "tig00024246" chrStart: 1474560000
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 436  "tig00025846" chrStart: 1474822144
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 437  "tig00025900" chrStart: 1475084288
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 438  "tig00025903" chrStart: 1475346432
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 439  "tig00026940" chrStart: 1475608576
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 440  "tig00027154" chrStart: 1475870720
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 441  "tig00028341" chrStart: 1476132864
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 442  "tig00029496" chrStart: 1476395008
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 443  "tig00029756" chrStart: 1476657152
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 444  "tig00447250" chrStart: 1476919296
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 445  "tig00447257" chrStart: 1477181440
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 446  "tig00447261" chrStart: 1477443584
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 447  "tig00447262" chrStart: 1477705728
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 448  "tig00447263" chrStart: 1477967872
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 449  "tig00447264" chrStart: 1478230016
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 450  "tig00447265" chrStart: 1478492160
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 451  "tig00447267" chrStart: 1478754304
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 452  "chrM_1" chrStart: 1479016448
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 453  "chrM_2" chrStart: 1479278592
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 454  "chrM_3" chrStart: 1479540736
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 455  "chrM_4" chrStart: 1479802880
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 456  "chrM_5" chrStart: 1480065024
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 457  "chrM_6" chrStart: 1480327168
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 458  "chrM_7" chrStart: 1480589312
+/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_1.0.fasta : chr # 459  "chrC" chrStart: 1480851456
+Estimated genome size=1682113600   1481113600   201000000
+GstrandBit=32
+Number of SA indices: 2734058724
+Jul 04 10:04:12 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 43;   chunks size limit: 560755056 bytes
+Jul 04 10:04:17 ... sorting Suffix Array chunks and saving them to disk...
+Writing 447931584 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_8 ; empty space on disk = 101294699184128 bytes ...Writing 481316960 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_0 ; empty space on disk = 101294699184128 bytes ... done
+ done
+Writing 490755896 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_26 ; empty space on disk = 101293283606528 bytes ... done
+Writing 494710176 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_9 ; empty space on disk = 101293278363648 bytes ... done
+Writing 459578416 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_12 ; empty space on disk = 101292784484352 bytes ...Writing 527975440 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_2 ; empty space on disk = 101292784484352 bytes ... done
+ done
+Writing 511657240 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_11 ; empty space on disk = 101291796725760 bytes ... done
+Writing 519481000 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_7 ; empty space on disk = 101291283972096 bytes ...Writing 519708144 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_18 ; empty space on disk = 101291283972096 bytes ...Writing 557662168 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_4 ; empty space on disk = 101291283972096 bytes ...Writing 459336336 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_1 ; empty space on disk = 101291283972096 bytes ... done
+ done
+ done
+ done
+Writing 527321200 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_23 ; empty space on disk = 101288702377984 bytes ...Writing 542252184 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_15 ; empty space on disk = 101288702377984 bytes ... done
+ done
+Writing 533200824 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_27 ; empty space on disk = 101288159215616 bytes ... done
+Writing 556612688 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_20 ; empty space on disk = 101287625490432 bytes ... done
+Writing 516887944 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_3 ; empty space on disk = 101287068696576 bytes ... done
+Writing 546678472 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_24 ; empty space on disk = 101286163775488 bytes ... done
+Writing 554200064 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_28 ; empty space on disk = 101285553504256 bytes ... done
+Writing 503629520 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_22 ; empty space on disk = 101285451792384 bytes ... done
+Writing 503622176 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_6 ; empty space on disk = 101284525899776 bytes ... done
+Writing 518132064 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_13 ; empty space on disk = 101284444110848 bytes ...Writing 516168760 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_25 ; empty space on disk = 101284444110848 bytes ... done
+ done
+Writing 509211088 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_19 ; empty space on disk = 101283410214912 bytes ... done
+Writing 544015392 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_14 ; empty space on disk = 101282900606976 bytes ... done
+Writing 550422688 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_5 ; empty space on disk = 101282356396032 bytes ...Writing 539128712 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_29 ; empty space on disk = 101282222178304 bytes ... done
+ done
+Writing 532248856 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_21 ; empty space on disk = 101281248051200 bytes ...Writing 510363728 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_17 ; empty space on disk = 101281248051200 bytes ...Writing 553093240 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_10 ; empty space on disk = 101281248051200 bytes ... done
+ done
+ done
+Writing 528576088 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_16 ; empty space on disk = 101278680088576 bytes ... done
+Writing 234780688 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_42 ; empty space on disk = 101279124684800 bytes ... done
+Writing 504009792 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_30 ; empty space on disk = 101278889803776 bytes ... done
+Writing 494710848 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_32 ; empty space on disk = 101278385438720 bytes ... done
+Writing 533237192 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_34 ; empty space on disk = 101277683941376 bytes ... done
+Writing 538049440 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_31 ; empty space on disk = 101277150216192 bytes ...Writing 439031064 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_41 ; empty space on disk = 101277150216192 bytes ... done
+ done
+Writing 537337952 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_33 ; empty space on disk = 101276173991936 bytes ... done
+Writing 500044648 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_38 ; empty space on disk = 101275636072448 bytes ... done
+Writing 495799376 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_35 ; empty space on disk = 101274719617024 bytes ... done
+Writing 496774432 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_36 ; empty space on disk = 101274639925248 bytes ... done
+Writing 506163248 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_37 ; empty space on disk = 101273666846720 bytes ... done
+Writing 483006520 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_40 ; empty space on disk = 101273637486592 bytes ... done
+Writing 553645544 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA_39 ; empty space on disk = 101273154093056 bytes ... done
+Jul 04 10:07:46 ... loading chunks from disk, packing SA...
+Jul 04 10:08:31 ... finished generating suffix array
+Jul 04 10:08:31 ... generating Suffix Array index
+Jul 04 10:09:38 ... completed Suffix Array index
+Jul 04 10:09:38 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_genes_1.0.6.gtf, found:
+		34068 transcripts
+		164447 exons (non-collapsed)
+		125068 collapsed junctions
+Jul 04 10:09:40 ..... finished GTF processing
+Jul 04 10:09:40   Loaded database junctions from the GTF file: /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Phygri_genes_1.0.6.gtf: 125068 total junctions
+
+Jul 04 10:09:40   Finished preparing junctions
+Jul 04 10:09:40 ..... inserting junctions into the genome indices
+Jul 04 10:09:47   Finished SA search: number of new junctions=125059, old junctions=0
+Jul 04 10:10:00   Finished sorting SA indicesL nInd=50023086
+Genome size with junctions=1506250459  1481113600   25136859
+GstrandBit1=32   GstrandBit=32
+Jul 04 10:10:28   Finished inserting junction indices
+Jul 04 10:10:35   Finished SAi
+Jul 04 10:10:35 ..... finished inserting junctions into genome
+Jul 04 10:10:35 ... writing Genome to disk ...
+Writing 1506250459 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/Genome ; empty space on disk = 101294676115456 bytes ... done
+SA size in bytes: 11484337470
+Jul 04 10:10:38 ... writing Suffix Array to disk ...
+Writing 11484337470 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SA ; empty space on disk = 101293170360320 bytes ... done
+Jul 04 10:10:52 ... writing SAindex to disk
+Writing 8 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SAindex ; empty space on disk = 101281685307392 bytes ... done
+Writing 112 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SAindex ; empty space on disk = 101281685307392 bytes ... done
+Writing 391468371 bytes into /data/passala/Genomes/Hagai_alignment_genomes/Physalis_grisea/SAindex ; empty space on disk = 101281685307392 bytes ... done
+Jul 04 10:10:54 ..... finished successfully
+DONE: Genome generation, EXITING
